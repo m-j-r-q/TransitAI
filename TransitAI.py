@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
+Model = joblib.load("model/Model.pkl")
+Model_Features = joblib.load("model/Model_Features.pkl")
 
 def show_gauge(probability):
     fig = go.Figure(go.Indicator(
@@ -37,9 +39,6 @@ def show_gauge(probability):
     )
 
     st.plotly_chart(fig)
-
-Model = joblib.load("model/Model.pkl")
-Model_Features = joblib.load("model/Model_Features.pkl")
 
 Encode = {"CANDIDATE":1, "FALSE POSITIVE":0}
 
