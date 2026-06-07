@@ -37,8 +37,9 @@ def show_gauge(probability):
         margin=dict(l=20, r=20, t=50, b=20),
         height=250
     )
-
-    st.plotly_chart(fig)
+    
+    with st.spinner("Generating result..."):
+        st.plotly_chart(fig)
 
 Encode = {"CANDIDATE":1, "FALSE POSITIVE":0}
 
