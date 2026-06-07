@@ -1,5 +1,8 @@
-streamlit==1.45.0
-joblib
-numpy
+streamlit
+scikit-learn
 pandas
+numpy
 plotly
+joblib
+seaborn
+matplotlib
