@@ -1,5 +1,7 @@
 # TransitAI
 
+[TransitAI Application Link](https://transitai.streamlit.app/) 
+
 ## Project Description
 
 TransitAI is a Machine Learning model with the goal of detecting exoplanets using the transit method, where the brightness of stars is measured over time to detect the periodic dimming caused by a planet passing in front of its host star. 
