@@ -119,7 +119,3 @@ joblib-progress
 The model is trained on the **NASA Cumulative Kepler Objects of Interest (KOI) Table**, available from the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative).
 
 ---
-
-## Note:
-
-I am a student developer, and have no formal education in the subject of Data Science or Machine Learning. This project was initially built as part of the NASA Space Apps Challenge 2025, but the initial project had several errors that needed to be addressed. I have decided to revise and upload the project. If you are a professional and find any scientific or technical inaccuracy, your feedback would be greatly appreciated. Thanks.
